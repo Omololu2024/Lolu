@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My Portfolio</title>
+   <link rel="stylesheet" href="styling.css">
+   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    
+    <!----------header------------>
+    
+    <header class="header">
+    <a href="#"><img src="background.png" alt="logo"></a>
+    <div class='navMenu' id="navMenu">
+     <i class="bx bx-window-close" onclick="closeMenu()"> </i>
+      <ul>
+          
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+ <li><a href="services.html">Services</a></li> <li><a href="Portfolio.html">Portfolio</a></li> <li><a href="contact.html">Contact</a></li> 
+      </ul>  
+       </div>
+       <i class="bx bx-menu" onclick="openMenu()"> </i>
+    </header>
+    
+      <!-----sub-header session----->
+      
+      <section class="sub-header" id="sub-header">
+       <h1><span>My</span> Services</h1>  
+      </section>
+          <!-------Services session------>
+          
+     <section class="services" id="services">
+        <div class="text-title">
+         <h2> What I<span> Do?</span></h2>
+           </div>
+           
+           <div class="services-content">
+            <div class="box">
+             <div class="icons">
+               <i class="bx bx-code"></i>
+           </div>
+           <h3>Frontend Development</h3>
+           
+        <p>I create an advanced front end development with interactive web applications, using JavaScript technologies.</p>
+  <a href="#" class="btn">Start a Project</a>
+           <div class="box">
+             <div class="icons">
+               <i class="bx bx-devices"></i>
+           </div>
+           <h3>UI-UX Design</h3>
+           <p>UI stands for (user-interface design) while UX stands for (user-experience design) they both related to how products and services are created in an eye catching and meaningful way, with functionality.</p>
+  <a href="#" class="btn">Start a Project</a>
+        </div>
+        </div>
+             <div class="box">
+             <div class="icons">
+               <i class="bx bx-pen"></i>
+           </div>
+           <h3>Graphics Design</h3>
+          <p>I create a good concepts using technologies, to  communicate ideas that inspire, inform and captivate consumers.</p>
+  <a href="#" class="btn">Start a Project</a>
+         </div>           
+         </div>
+    </section>
+    
+    <section class="others" id="others">
+      <div class="sub-text-title">
+         <h2><span>Other </span>Services</h2> 
+      </div>  
+      <div class="others-img">
+          <img src="image 17.jpeg" alt="log">
+       <span class="circle-spin"></span>
+      </div>
+     <div class="others-text">
+    <h3> Web Development <span>Training</span></h3>
+      <p>Teaches you how to create a good websites and applications using programming languages like HTML, CSS and JavaScript.</p>
+      </div>
+      
+    <div>
+      <a href="#" class="btn">Enroll Now</a>
+    </div>
+    </section>
+    
+       <!------footer session-------->
+    
+    <footer class="footer">
+        <div class="attribution">
+       <p>Design With<i class="bx bx-heart"></i>By Omololu</p>
+        </div>
+        <div class="move-up">
+            <a href="#sub-header"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+    
+    <!-- Js for toggle menu-->
+   <script>
+    var navMenu = document.getElementById
+("navMenu");
+        function openMenu() {
+        navMenu.style.right = "0";
+      }
+        
+        function closeMenu() {
+        navMenu.style.right = "-130px";
+      }  
+   </script>
+    
+</body>
+</html>

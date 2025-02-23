@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My Portfolio</title>
+   <link rel="stylesheet" href="styling.css">
+   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    
+    <!----------header------------>
+    
+    <header class="header">
+    <a href="#"><img src="background.png" alt="logo"></a>
+    <div class='navMenu' id="navMenu">
+     <i class="bx bx-window-close" onclick="closeMenu()"> </i>
+      <ul>
+          
+  <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+  <li><a href="services.html">Services</a></li> 
+<li><a href="Portfolio.html">Portfolio</a></li> <li><a href="contact.html">Contact</a></li> 
+      </ul>  
+       </div>
+       <i class='bx bx-menu' onclick="openMenu()"> </i>
+    </header>
+    
+      <!-----sub-header session----->
+      
+      <section class="sub-header" id="sub-header">
+         <h1>About <span>Me</span></h1>      </section>
+    
+    <!----About session----->
+    
+    <section class="about" id="about">
+     <div class="about-img">
+     <img src="images 19.jpeg" alt="alternative logo">
+     </div>
+     
+     <div class="about-text">
+   <h4><span>I'm a</span> Design Technologist</h4>
+       <p>I am web developer who creates  beautiful websites and also look after the website technicalities and it's smooth functioning, I am very ambitious person who loves to work on making the website work well.</p>
+     <a href="#" class="btn">Let's talk</a>
+         
+     </div> 
+    </section>
+  
+    <section class="others" id="others">
+      <div class="sub-text-title">
+         <h2>Why <span>Me?</span></h2> 
+      </div>  
+      <div class="others-img">
+          <img src="background.png" alt="log">
+          <span class="circle-spin"></span>
+      </div>
+      <div class="others-text">
+          <h3><span>As</span> a design technologist & a web development trainer</h3>
+      <p>
+    - As a good and capable design technologist, i merge design with technology to enhance users experiences.<br><br>
+    - It involves translating a coding designs into a functional website making use of a centain programming languages such as HTML,CSS and the like.<br><br>
+    - Being a capable designer, i combine design skills and technical knowledge to create and implement digital products and services, such as websites,apps and many more.
+      </p>
+      </div>
+      
+    <div>
+      <a href="#" class="btn">Hire Me</a>
+    </div>
+    </section>
+    
+     <!------footer session-------->
+    
+    <footer class="footer">
+        <div class="attribution">
+       <p>Design With<i class="bx bx-heart"></i>By Omololu</p>
+        </div>
+        <div class="move-up">
+            <a href="#sub-header"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+    
+    <!-- Js for toggle menu-->
+   <script>
+    var navMenu = document.getElementById
+("navMenu");
+        function openMenu() {
+        navMenu.style.right = "0";
+      }
+        
+        function closeMenu() {
+        navMenu.style.right = "-130px";
+      }  
+   </script>
+</body>
+</html>
